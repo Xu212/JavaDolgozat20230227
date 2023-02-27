@@ -16,7 +16,9 @@ public class Aranyhal {
     public Aranyhal(int kor, String kifogta) {
         this.kor = kor;
         this.kifogta = kifogta;
-        this.map = new HashMap();
+        //this.map = new HashMap<String,Integer>();
+        
+        this.map = new HashMap<String,String[]>();
     }
 
     public int getKor() {
